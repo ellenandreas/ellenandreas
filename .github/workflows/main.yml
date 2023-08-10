@@ -20,6 +20,8 @@ jobs:
         # Optional quality of the build. The possible values are: daily, signed, validated, preview, ga.
         dotnet-quality: preview
     # publishes Blazor project to the release-folder
+    - name: ls
+      run: ls
     - name: Publish .NET Core Project
       run: dotnet publish BlazorWedding/BlazorWedding.csproj -c Release -o release --nologo
     # changes the base-tag in index.html from '/' to 'ellenandreas' to match GitHub Pages repository subdirectory
