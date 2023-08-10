@@ -14,7 +14,7 @@
   "pthreadPoolSize": null,
   "resources": {
     "assembly": {
-      "BlazorWedding.dll": "sha256-Z5T8VVtdg5ANlkgXlhvtr0Lv1UH6JpHnGGEWn\/LcGLQ=",
+      "BlazorWedding.dll": "sha256-qzzxJhlgDWGYuUHtqlCIj9RVuRJbZyWgWVEOQ90csdU=",
       "Microsoft.AspNetCore.Components.dll": "sha256-rkRGqboD\/wuFj0FcwGnRhd6emd4+wdJIHpW4jvTPTaw=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-3r7fGCYO\/kQ0tbsGxhqVj5bbQ6SmydE+Xi\/wHPRNitE=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-ca+zU1FJ6jZ0k+I7qwpNqA6Gjaf06eJNeYqaR9JpAJA=",
