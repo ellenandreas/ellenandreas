@@ -24,6 +24,10 @@ jobs:
       run: dotnet publish WeddingBlazor.csproj -c Release -o release --nologo
     - name: ls
       run: ls
+    - name: cd
+      run: cd release
+    - name: ls
+      run: ls
     # changes the base-tag in index.html from '/' to 'ellenandreas' to match GitHub Pages repository subdirectory
     - name: Change base-tag in index.html from / to ellenandreas
       run: sed -i 's/<base href="\/" \/>/<base href="\/ellenandreas\/" \/>/g' release/wwwroot/index.html
